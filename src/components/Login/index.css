@@ -1,0 +1,31 @@
+.Password-feild {
+  border: none;
+}
+.password-container {
+  display: flex;
+  width: 200px;
+  flex-direction: row;
+  border: hsla(0, 0%, 0%, 0.799) solid;
+}
+.eyeSymbol {
+  margin: 2px;
+}
+.email-feild {
+  width: 200px;
+  border: hsla(0, 0%, 0%, 0.799) solid;
+}
+.Login-buuton {
+  background-color: rgb(0, 0, 255);
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  margin: 10px;
+  height: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
