@@ -1,7 +1,6 @@
 import {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import {IoEye} from 'react-icons/io5'
-import DashBoard from '../DashBoard'
 
 import './index.css'
 
@@ -75,7 +74,7 @@ class Login extends Component {
             </div>
           </div>
 
-          <button className="Login-buuton" type="Submit">
+          <button className="Login-buuton" type="submit">
             Login
           </button>
         </form>

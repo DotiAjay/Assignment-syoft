@@ -6,7 +6,7 @@ class Signup extends Component {
   state = {mail: '', pass: '', name: '', company: ''}
 
   getSignUp = async event => {
-    const {mail, pass, name, company} = this.state
+    const {mail, pass, name} = this.state
     console.log('sign')
     event.preventDefault()
     const url =
@@ -21,7 +21,6 @@ class Signup extends Component {
       body: JSON.stringify(userData),
     }
     const Response = await fetch(url, options)
-    const data = await Response.json()
 
     if (Response.ok === true) {
       localStorage.setItem('user_name', name)
